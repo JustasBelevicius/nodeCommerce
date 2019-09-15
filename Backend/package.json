@@ -4,7 +4,8 @@
   "description": "An eCommerce CMS running on node and react. This project contains the backend services for the entire cms.",
   "main": "index.js",
   "scripts": {
-    "start": "tsc && node dist/app.js"
+    "start": "tsc && node dist/app.js",
+    "tslint": "tslint ./src/*.ts"
   },
   "keywords": [
     "eCommerce",
