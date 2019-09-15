@@ -1,0 +1,26 @@
+{
+  "name": "node-commerce-be",
+  "version": "0.1.0",
+  "description": "An eCommerce CMS running on node and react. This project contains the backend services for the entire cms.",
+  "main": "index.js",
+  "scripts": {
+    "start": "tsc && node dist/app.js"
+  },
+  "keywords": [
+    "eCommerce",
+    "typescript",
+    "ecommerce",
+    "TypeScript",
+    "TS"
+  ],
+  "author": "Justas B",
+  "license": "ISC",
+  "devDependencies": {
+    "tslint": "^5.20.0",
+    "typescript": "^3.6.3"
+  },
+  "dependencies": {
+    "apollo-server": "^2.9.3",
+    "graphql": "^14.5.5"
+  }
+}
